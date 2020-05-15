@@ -157,7 +157,7 @@ namespace TestsByLera
            
             string q5 = "200";
            
-            bool excpected = false;
+            bool excpected = true;
             
             bool actual = Lab8.Check.Expirated(q3, q5);
             Assert.AreEqual(excpected, actual);
